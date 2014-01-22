@@ -1,0 +1,8 @@
+{
+  "packages": {
+    "iron-router": {},
+    "bootstrap-simplex": {},
+    "spin": {},
+    "supercalendar": {}
+  }
+}

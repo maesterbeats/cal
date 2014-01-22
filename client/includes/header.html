@@ -1,0 +1,29 @@
+<template name="header">
+	<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+		<div class="navbar-header">
+			<div class="nav navbar-nav">
+				<button type="button" class="btn btn-danger btn-sm">
+  					<span class="glyphicon glyphicon-th-list"></span>
+				</button>
+			</div>
+			<div class="nav navbar-nav">
+				<a class="navbar-brand active" href="/">
+					Guitar n Shit
+				</a>	
+			</div>
+			 
+		</div>
+		<div class="nav navbar-nav">
+			<ul class="navbar-text">
+				{{loginButtons}}				
+			</ul>
+			
+		</div>
+		<div class="nav navbar-right">
+			<ul class="navbar-text">
+			<a href="{{pathFor 'calendar'}}" class="navbar-text">Calendar</a>
+			<a href="{{pathFor profile}}" class="navbar-text">Profile</a>
+			</ul>
+		</div>
+	</nav>
+</template>

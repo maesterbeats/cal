@@ -1,0 +1,51 @@
+{
+  "meteor": {},
+  "dependencies": {
+    "basePackages": {
+      "iron-router": {
+        "version": "0.6.2"
+      },
+      "bootstrap-simplex": {
+        "version": "0.0.2"
+      },
+      "spin": {
+        "version": "0.2.2"
+      },
+      "supercalendar": {
+        "version": "0.2.0"
+      }
+    },
+    "packages": {
+      "iron-router": {
+        "git": "https://github.com/EventedMind/iron-router.git",
+        "tag": "v0.6.2",
+        "commit": "ce56e58b45624dce992490f3a1c10f10d3948bae"
+      },
+      "bootstrap-simplex": {
+        "git": "https://github.com/and-fri/meteor-bootstrap-simplex.git",
+        "tag": "v0.0.2",
+        "commit": "03a6d0a827395172474147e227081259814e26d5"
+      },
+      "spin": {
+        "git": "https://github.com/SachaG/meteor-spin.git",
+        "tag": "v0.2.2",
+        "commit": "3f655f0016228e4195acc784c45d3e3a247dc39f"
+      },
+      "supercalendar": {
+        "git": "https://github.com/gabrielhpugliese/meteor_supercalendar",
+        "tag": "v0.2.0",
+        "commit": "70229679d36b96be28abab4bf4105a7480d4ebbf"
+      },
+      "Mesosphere": {
+        "git": "https://github.com/copleykj/Mesosphere.git",
+        "tag": "v0.1.4",
+        "commit": "a1abf9cfe102cd7f3c617b0198b5c35499e5ea57"
+      },
+      "underscore-string-latest": {
+        "git": "https://github.com/TimHeckel/meteor-underscore-string.git",
+        "tag": "v2.3.3",
+        "commit": "4a5d70eee48fbd90a6e6fc78747250d704a0b3bb"
+      }
+    }
+  }
+}

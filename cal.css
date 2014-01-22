@@ -1,0 +1,16 @@
+/* CSS declarations go here */
+.navbar-brand{
+	color: white;
+}
+
+.login-link-text{
+	color: white;
+}
+
+.navbar-default{
+	background-color: black;
+}
+.navbar-text{
+	color: white;
+}
+
